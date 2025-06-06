@@ -8,3 +8,8 @@ export MYSQL_PORT=
 export MYSQL_DB=
 export MYSQL_USER=
 export MYSQL_PASSWORD=
+
+export MYSQL_VERSION=
+
+# mysql 9.0.1 path
+export PATH=

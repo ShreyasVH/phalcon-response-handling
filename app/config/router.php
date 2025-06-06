@@ -16,7 +16,7 @@ $application->mount($books);
 
 $application->after(function() use($application) {
     $application->response->setContentType('application/json', 'UTF-8');
-    $output_content = json_encode(new Response($application->getReturnedValue()), JSON_UNESCAPED_SLASHES);
+    $output_content = json_encode(Response::withData($application->getReturnedValue()), JSON_UNESCAPED_SLASHES);
 
     $application->response->setContent($output_content);
     $application->response->send();
