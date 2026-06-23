@@ -11,5 +11,5 @@ export MYSQL_PASSWORD=
 
 export MYSQL_VERSION=
 
-# mysql 9.7.0 path
+# mysql 9.7.1 path
 export PATH=
